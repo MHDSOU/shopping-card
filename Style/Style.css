@@ -4,25 +4,62 @@
 }
 
 .main-container {
-  border: 1px red solid;
   width: 100%;
   min-height: 97.5vh;
 }
 
 .navbar-container {
-  border: 1px green solid;
   width: 100%;
   height: 7.5%;
 }
 
+#nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
 .card-container {
-  border: 1px magenta solid;
+  display: flex;
   width: 100%;
   height: 91.75%;
 }
 
-#items-container {
-  border: 1px blue solid;
-  width: 70%;
-  height: 100%;
+.items-container {
+  width: 60%;
+  height: auto;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+
+#first-item {
+  margin-top: 3rem;
+}
+
+#second-item {
+  margin-top: 3rem;
+}
+
+#third-item {
+  margin-top: 3rem;
+}
+
+.price-item {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+.price-item button {
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.chart-container {
+  margin-top: 3rem;
+  margin-left: 5rem;
 }

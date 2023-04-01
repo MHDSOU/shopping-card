@@ -8,10 +8,70 @@
   </head>
   <body>
     <div class="main-container">
-      <div class="navbar-container"></div>
+      <div class="navbar-container">
+        <ul id="nav-links">
+          <li>
+            <a href="./Home.html">Home</a>
+          </li>
+          <li>
+            <a href="./products.html">products</a>
+          </li>
+          <li>
+            <a href="./contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
       <div class="card-container">
-        <div id="items-container"></div>
-        <div id="chart-container"></div>
+        <div class="items-container">
+          <div id="first-item">
+            <h2>Intel i5 12600K</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
+              saepe. Laudantium quaerat maxime totam fugiat.
+            </p>
+            <div class="price-item">
+              <h3>Price : 54000 DA</h3>
+              <button>Buy</button>
+            </div>
+            <hr />
+          </div>
+          <div id="second-item">
+            <h2>AMD Ryzen 5 5600G</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+              debitis, animi doloribus optio velit ex.
+            </p>
+            <div class="price-item">
+              <h3>Price : 2000 DA</h3>
+              <button>Buy</button>
+            </div>
+            <hr />
+          </div>
+          <div id="third-item">
+            <h2>RTX 3070ti</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus,
+              fugit. Voluptatibus, quis nobis. Fuga, assumenda?
+            </p>
+            <div class="price-item">
+              <h3>Price : 9000 DA</h3>
+              <button>Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="chart-container">
+          <div>
+            <h2>Your chart</h2>
+            <div></div>
+            <input type="number" id="input" placeholder="" />
+            <button onclick="newElement()">Add</button>
+            <button onclick="removeAll()">Remove All</button>
+          </div>
+
+          <div id="list_container">
+            <ul id="ul"></ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>
